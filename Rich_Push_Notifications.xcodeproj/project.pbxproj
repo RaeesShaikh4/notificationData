@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C93B1A882B71FE04002E9081 /* notificationDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C93B1A872B71FE04002E9081 /* notificationDetailViewController.swift */; };
 		C980DCF32B70A15C00885880 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C980DCF22B70A15C00885880 /* AppDelegate.swift */; };
 		C980DCF52B70A15C00885880 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C980DCF42B70A15C00885880 /* SceneDelegate.swift */; };
 		C980DCF72B70A15C00885880 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C980DCF62B70A15C00885880 /* ViewController.swift */; };
 		C980DCFA2B70A15C00885880 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C980DCF82B70A15C00885880 /* Main.storyboard */; };
 		C980DCFC2B70A15E00885880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C980DCFB2B70A15E00885880 /* Assets.xcassets */; };
 		C980DCFF2B70A15E00885880 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C980DCFD2B70A15E00885880 /* LaunchScreen.storyboard */; };
+		C9E8D1852B70C9E9009C52BA /* pizza.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = C9E8D1842B70C9E9009C52BA /* pizza.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C93B1A872B71FE04002E9081 /* notificationDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = notificationDetailViewController.swift; sourceTree = "<group>"; };
 		C980DCEF2B70A15C00885880 /* Rich_Push_Notifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rich_Push_Notifications.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C980DCF22B70A15C00885880 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C980DCF42B70A15C00885880 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,8 @@
 		C980DCFB2B70A15E00885880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C980DCFE2B70A15E00885880 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C980DD002B70A15E00885880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C980DD062B70A91D00885880 /* Rich_Push_Notifications.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Rich_Push_Notifications.entitlements; sourceTree = "<group>"; };
+		C9E8D1842B70C9E9009C52BA /* pizza.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = pizza.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +61,8 @@
 		C980DCF12B70A15C00885880 /* Rich_Push_Notifications */ = {
 			isa = PBXGroup;
 			children = (
+				C9E8D1842B70C9E9009C52BA /* pizza.jpeg */,
+				C980DD062B70A91D00885880 /* Rich_Push_Notifications.entitlements */,
 				C980DCF22B70A15C00885880 /* AppDelegate.swift */,
 				C980DCF42B70A15C00885880 /* SceneDelegate.swift */,
 				C980DCF62B70A15C00885880 /* ViewController.swift */,
@@ -63,6 +70,7 @@
 				C980DCFB2B70A15E00885880 /* Assets.xcassets */,
 				C980DCFD2B70A15E00885880 /* LaunchScreen.storyboard */,
 				C980DD002B70A15E00885880 /* Info.plist */,
+				C93B1A872B71FE04002E9081 /* notificationDetailViewController.swift */,
 			);
 			path = Rich_Push_Notifications;
 			sourceTree = "<group>";
@@ -125,6 +133,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9E8D1852B70C9E9009C52BA /* pizza.jpeg in Resources */,
 				C980DCFF2B70A15E00885880 /* LaunchScreen.storyboard in Resources */,
 				C980DCFC2B70A15E00885880 /* Assets.xcassets in Resources */,
 				C980DCFA2B70A15C00885880 /* Main.storyboard in Resources */,
@@ -140,6 +149,7 @@
 			files = (
 				C980DCF72B70A15C00885880 /* ViewController.swift in Sources */,
 				C980DCF32B70A15C00885880 /* AppDelegate.swift in Sources */,
+				C93B1A882B71FE04002E9081 /* notificationDetailViewController.swift in Sources */,
 				C980DCF52B70A15C00885880 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,8 +295,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Rich_Push_Notifications/Rich_Push_Notifications.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Rich_Push_Notifications/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -312,8 +324,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Rich_Push_Notifications/Rich_Push_Notifications.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Rich_Push_Notifications/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
